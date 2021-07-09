@@ -363,7 +363,7 @@
             <name>Silver_flag</name>
             <type>FieldUpdate</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
         <criteriaItems>
             <field>Opportunity.IsClosed</field>
             <operation>notEqual</operation>
@@ -386,7 +386,7 @@
             <name>GM</name>
             <type>FieldUpdate</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
         <criteriaItems>
             <field>Opportunity.Amount</field>
             <operation>greaterOrEqual</operation>
@@ -410,7 +410,7 @@
             <name>HSD</name>
             <type>Alert</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
         <criteriaItems>
             <field>Opportunity.Amount</field>
             <operation>greaterOrEqual</operation>
