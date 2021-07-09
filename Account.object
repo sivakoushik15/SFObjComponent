@@ -637,14 +637,14 @@
     </validationRules>
     <validationRules>
         <fullName>Skip_Bankrupt_Acc1</fullName>
-        <active>false</active>
+        <active>true</active>
         <errorConditionFormula>AnnualRevenue  &lt; -1000000</errorConditionFormula>
         <errorDisplayField>AnnualRevenue</errorDisplayField>
         <errorMessage>Revenue is less than -1000000</errorMessage>
     </validationRules>
 	<validationRules>
         <fullName>Skip_Bankrupt_Acc2</fullName>
-        <active>false</active>
+        <active>true</active>
         <errorConditionFormula>AnnualRevenue  &lt; -1000000</errorConditionFormula>
         <errorDisplayField>AnnualRevenue</errorDisplayField>
         <errorMessage>Revenue is less than -1000000</errorMessage>
