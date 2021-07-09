@@ -90,4 +90,35 @@
             <roleAndSubordinates>SVPHumanResources</roleAndSubordinates>
         </sharedFrom>
     </sharingOwnerRules>
+	<sharingOwnerRules>
+        <fullName>r8</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>r8</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>CustomerSupportNorthAmerica</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules><sharingOwnerRules>
+        <fullName>r9</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>r9</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>CustomerSupportNorthAmerica</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules><sharingOwnerRules>
+        <fullName>r10</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>r10</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>CustomerSupportNorthAmerica</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
 </SharingRules>

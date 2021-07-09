@@ -576,6 +576,13 @@
         <errorDisplayField>AutorabitExtId__c</errorDisplayField>
         <errorMessage>AR Ext id</errorMessage>
     </validationRules>
+	<validationRules>
+        <fullName>AR_Ext_id868_is_Seven</fullName>
+        <active>true</active>
+        <errorConditionFormula>AutorabitExtId__c  = &quot;Seven&quot;</errorConditionFormula>
+        <errorDisplayField>AutorabitExtId__c</errorDisplayField>
+        <errorMessage>AR Ext id</errorMessage>
+    </validationRules>
     <validationRules>
         <fullName>Acc_Number_is_Numeric</fullName>
         <active>true</active>
@@ -588,6 +595,47 @@
     </validationRules>
     <validationRules>
         <fullName>Account_Number_8_Characters</fullName>
+        <active>true</active>
+        <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account number should contain 8 digits</errorMessage>
+    </validationRules>
+	<validationRules>
+        <fullName>Account_Number_832_Characters</fullName>
+        <active>true</active>
+        <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account number should contain 8 digits</errorMessage>
+    </validationRules><validationRules>
+        <fullName>Account_Number_8354_Characters</fullName>
+        <active>true</active>
+        <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account number should contain 8 digits</errorMessage>
+    </validationRules>
+	<validationRules>
+        <fullName>Account_Number_888_Characters</fullName>
+        <active>true</active>
+        <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account number should contain 8 digits</errorMessage>
+    </validationRules>
+	<validationRules>
+        <fullName>Account_Number_889_Characters</fullName>
+        <active>true</active>
+        <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account number should contain 8 digits</errorMessage>
+    </validationRules>
+	<validationRules>
+        <fullName>Account_Number_898_Characters</fullName>
+        <active>true</active>
+        <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account number should contain 8 digits</errorMessage>
+    </validationRules>
+	<validationRules>
+        <fullName>Account_Number_812_Characters</fullName>
         <active>true</active>
         <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
         <errorDisplayField>AccountNumber</errorDisplayField>
