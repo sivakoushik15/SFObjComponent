@@ -77,4 +77,48 @@
             <roleAndSubordinates>SVPHumanResources</roleAndSubordinates>
         </sharedFrom>
     </sharingOwnerRules>
+	<sharingOwnerRules>
+        <fullName>r8</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>r8</label>
+        <sharedTo>
+            <roleAndSubordinates>VPNorthAmericanSales</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>SVPHumanResources</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+	<sharingOwnerRules>
+        <fullName>r9</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>r9</label>
+        <sharedTo>
+            <roleAndSubordinates>VPNorthAmericanSales</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>SVPHumanResources</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+	<sharingOwnerRules>
+        <fullName>r10</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>r10</label>
+        <sharedTo>
+            <roleAndSubordinates>VPNorthAmericanSales</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>SVPHumanResources</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+	<sharingOwnerRules>
+        <fullName>r11</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>r11</label>
+        <sharedTo>
+            <roleAndSubordinates>VPNorthAmericanSales</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>SVPHumanResources</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
 </SharingRules>
