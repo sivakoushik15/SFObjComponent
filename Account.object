@@ -594,6 +594,13 @@
         <errorMessage>Account number should contain 8 digits</errorMessage>
     </validationRules>
 	<validationRules>
+        <fullName>Account_Number_8_Chacopy</fullName>
+        <active>true</active>
+        <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account number should contain 8 digits</errorMessage>
+    </validationRules>
+	<validationRules>
         <fullName>Account_Number_8_Cha</fullName>
         <active>true</active>
         <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
