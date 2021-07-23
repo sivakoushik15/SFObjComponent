@@ -576,6 +576,13 @@
         <errorDisplayField>AutorabitExtId__c</errorDisplayField>
         <errorMessage>AR Ext id</errorMessage>
     </validationRules>
+	<validationRules>
+        <fullName>AR_Ext_id_is_Seven_111</fullName>
+        <active>true</active>
+        <errorConditionFormula>AutorabitExtId__c  = &quot;Seven&quot;</errorConditionFormula>
+        <errorDisplayField>AutorabitExtId__c</errorDisplayField>
+        <errorMessage>AR Ext id</errorMessage>
+    </validationRules>
     <validationRules>
         <fullName>Acc_Number_is_Numeric</fullName>
         <active>true</active>
