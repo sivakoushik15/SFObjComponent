@@ -89,12 +89,12 @@
         </actions>
         <active>true</active>
         <criteriaItems>
-            <field>Opportunity.IsClosed</field>
+            <field>Contact.IsClosed</field>
             <operation>notEqual</operation>
             <value>True</value>
         </criteriaItems>
         <criteriaItems>
-            <field>Opportunity.Amount</field>
+            <field>Contact.Amount</field>
             <operation>equals</operation>
             <value>50000</value>
         </criteriaItems>
@@ -104,7 +104,7 @@
         <fullName>Check for Trivial Deal</fullName>
         <active>true</active>
         <criteriaItems>
-            <field>Opportunity.Amount</field>
+            <field>Contact.Amount</field>
             <operation>lessThan</operation>
             <value>500</value>
         </criteriaItems>
@@ -126,17 +126,17 @@
         </actions>
         <active>true</active>
         <criteriaItems>
-            <field>Opportunity.Amount</field>
+            <field>Contact.Amount</field>
             <operation>greaterOrEqual</operation>
             <value>500000</value>
         </criteriaItems>
         <criteriaItems>
-            <field>Opportunity.Amount</field>
+            <field>Contact.Amount</field>
             <operation>lessThan</operation>
             <value>750000</value>
         </criteriaItems>
         <criteriaItems>
-            <field>Opportunity.IsClosed</field>
+            <field>Contact.IsClosed</field>
             <operation>notEqual</operation>
             <value>False</value>
         </criteriaItems>
@@ -150,17 +150,17 @@
         </actions>
         <active>false</active>
         <criteriaItems>
-            <field>Opportunity.Amount</field>
+            <field>Contact.Amount</field>
             <operation>greaterOrEqual</operation>
             <value>500000</value>
         </criteriaItems>
         <criteriaItems>
-            <field>Opportunity.Amount</field>
+            <field>Contact.Amount</field>
             <operation>lessThan</operation>
             <value>750000</value>
         </criteriaItems>
         <criteriaItems>
-            <field>Opportunity.IsClosed</field>
+            <field>Contact.IsClosed</field>
             <operation>notEqual</operation>
             <value>False</value>
         </criteriaItems>
@@ -174,17 +174,17 @@
         </actions>
         <active>false</active>
         <criteriaItems>
-            <field>Opportunity.Amount</field>
+            <field>Contact.Amount</field>
             <operation>greaterOrEqual</operation>
             <value>500000</value>
         </criteriaItems>
         <criteriaItems>
-            <field>Opportunity.Amount</field>
+            <field>Contact.Amount</field>
             <operation>lessThan</operation>
             <value>750000</value>
         </criteriaItems>
         <criteriaItems>
-            <field>Opportunity.IsClosed</field>
+            <field>Contact.IsClosed</field>
             <operation>notEqual</operation>
             <value>False</value>
         </criteriaItems>
@@ -198,17 +198,17 @@
         </actions>
         <active>false</active>
         <criteriaItems>
-            <field>Opportunity.Amount</field>
+            <field>Contact.Amount</field>
             <operation>greaterOrEqual</operation>
             <value>500000</value>
         </criteriaItems>
         <criteriaItems>
-            <field>Opportunity.Amount</field>
+            <field>Contact.Amount</field>
             <operation>lessThan</operation>
             <value>750000</value>
         </criteriaItems>
         <criteriaItems>
-            <field>Opportunity.IsClosed</field>
+            <field>Contact.IsClosed</field>
             <operation>notEqual</operation>
             <value>False</value>
         </criteriaItems>
@@ -222,17 +222,17 @@
         </actions>
         <active>false</active>
         <criteriaItems>
-            <field>Opportunity.Amount</field>
+            <field>Contact.Amount</field>
             <operation>greaterOrEqual</operation>
             <value>500000</value>
         </criteriaItems>
         <criteriaItems>
-            <field>Opportunity.Amount</field>
+            <field>Contact.Amount</field>
             <operation>lessThan</operation>
             <value>750000</value>
         </criteriaItems>
         <criteriaItems>
-            <field>Opportunity.IsClosed</field>
+            <field>Contact.IsClosed</field>
             <operation>notEqual</operation>
             <value>False</value>
         </criteriaItems>
@@ -246,17 +246,17 @@
         </actions>
         <active>true</active>
         <criteriaItems>
-            <field>Opportunity.Amount</field>
+            <field>Contact.Amount</field>
             <operation>greaterOrEqual</operation>
             <value>750000</value>
         </criteriaItems>
         <criteriaItems>
-            <field>Opportunity.Amount</field>
+            <field>Contact.Amount</field>
             <operation>lessThan</operation>
             <value>1000000</value>
         </criteriaItems>
         <criteriaItems>
-            <field>Opportunity.IsClosed</field>
+            <field>Contact.IsClosed</field>
             <operation>notEqual</operation>
             <value>False</value>
         </criteriaItems>
@@ -274,17 +274,17 @@
         </actions>
         <active>true</active>
         <criteriaItems>
-            <field>Opportunity.Amount</field>
+            <field>Contact.Amount</field>
             <operation>greaterOrEqual</operation>
             <value>100000</value>
         </criteriaItems>
         <criteriaItems>
-            <field>Opportunity.Amount</field>
+            <field>Contact.Amount</field>
             <operation>lessThan</operation>
             <value>300000</value>
         </criteriaItems>
         <criteriaItems>
-            <field>Opportunity.IsClosed</field>
+            <field>Contact.IsClosed</field>
             <operation>notEqual</operation>
             <value>False</value>
         </criteriaItems>
@@ -298,12 +298,12 @@
         </actions>
         <active>true</active>
         <criteriaItems>
-            <field>Opportunity.Amount</field>
+            <field>Contact.Amount</field>
             <operation>greaterOrEqual</operation>
             <value>10000</value>
         </criteriaItems>
         <criteriaItems>
-            <field>Opportunity.Amount</field>
+            <field>Contact.Amount</field>
             <operation>lessThan</operation>
             <value>50000</value>
         </criteriaItems>
@@ -317,17 +317,17 @@
         </actions>
         <active>true</active>
         <criteriaItems>
-            <field>Opportunity.Amount</field>
+            <field>Contact.Amount</field>
             <operation>greaterOrEqual</operation>
             <value>1000000</value>
         </criteriaItems>
         <criteriaItems>
-            <field>Opportunity.Amount</field>
+            <field>Contact.Amount</field>
             <operation>lessThan</operation>
             <value>5000000</value>
         </criteriaItems>
         <criteriaItems>
-            <field>Opportunity.IsClosed</field>
+            <field>Contact.IsClosed</field>
             <operation>notEqual</operation>
             <value>False</value>
         </criteriaItems>
@@ -341,17 +341,17 @@
         </actions>
         <active>true</active>
         <criteriaItems>
-            <field>Opportunity.Amount</field>
+            <field>Contact.Amount</field>
             <operation>greaterOrEqual</operation>
             <value>300000</value>
         </criteriaItems>
         <criteriaItems>
-            <field>Opportunity.Amount</field>
+            <field>Contact.Amount</field>
             <operation>lessThan</operation>
             <value>500000</value>
         </criteriaItems>
         <criteriaItems>
-            <field>Opportunity.IsClosed</field>
+            <field>Contact.IsClosed</field>
             <operation>notEqual</operation>
             <value>False</value>
         </criteriaItems>
@@ -365,19 +365,19 @@
         </actions>
         <active>false</active>
         <criteriaItems>
-            <field>Opportunity.IsClosed</field>
+            <field>Contact.IsClosed</field>
             <operation>notEqual</operation>
             <value>True</value>
         </criteriaItems>
         <criteriaItems>
-            <field>Opportunity.Amount</field>
+            <field>Contact.Amount</field>
             <operation>equals</operation>
             <value>100000</value>
         </criteriaItems>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
     </rules>
     <rules>
-        <fullName>Diamond6False</fullName>
+        <fullName>Diamond6false</fullName>
         <actions>
             <name>HSD</name>
             <type>Alert</type>
@@ -388,17 +388,17 @@
         </actions>
         <active>false</active>
         <criteriaItems>
-            <field>Opportunity.Amount</field>
+            <field>Contact.Amount</field>
             <operation>greaterOrEqual</operation>
             <value>5000000</value>
         </criteriaItems>
         <criteriaItems>
-            <field>Opportunity.Amount</field>
+            <field>Contact.Amount</field>
             <operation>lessThan</operation>
             <value>8000000</value>
         </criteriaItems>
         <criteriaItems>
-            <field>Opportunity.IsClosed</field>
+            <field>Contact.IsClosed</field>
             <operation>notEqual</operation>
             <value>False</value>
         </criteriaItems>
@@ -412,17 +412,17 @@
         </actions>
         <active>false</active>
         <criteriaItems>
-            <field>Opportunity.Amount</field>
+            <field>Contact.Amount</field>
             <operation>greaterOrEqual</operation>
             <value>9000000</value>
         </criteriaItems>
         <criteriaItems>
-            <field>Opportunity.Amount</field>
+            <field>Contact.Amount</field>
             <operation>lessThan</operation>
             <value>11000000</value>
         </criteriaItems>
         <criteriaItems>
-            <field>Opportunity.IsClosed</field>
+            <field>Contact.IsClosed</field>
             <operation>notEqual</operation>
             <value>False</value>
         </criteriaItems>
