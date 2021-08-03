@@ -67,6 +67,17 @@
         </sharedFrom>
     </sharingOwnerRules>
     <sharingOwnerRules>
+        <fullName>r8</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>r8</label>
+        <sharedTo>
+            <role>SVPSalesMarketing</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>WesternSalesTeam</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
         <fullName>r7</fullName>
         <accessLevel>Edit</accessLevel>
         <label>r7</label>
