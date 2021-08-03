@@ -397,6 +397,11 @@
             <operation>lessThan</operation>
             <value>8000000</value>
         </criteriaItems>
+	    <criteriaItems>
+            <field>Opportunity.Amount</field>
+            <operation>lessThan</operation>
+            <value>8000000</value>
+        </criteriaItems>
         <criteriaItems>
             <field>Opportunity.IsClosed</field>
             <operation>notEqual</operation>
