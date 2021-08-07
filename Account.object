@@ -238,8 +238,8 @@
         <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>Active__c</fullName>
-        <externalId>false</externalId>
+        <fullName>Activenew__c</fullName>
+        <externalId>true</externalId>
         <label>Active</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -315,6 +315,11 @@
     <fields>
         <fullName>DandbCompanyId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>DandbCompanyId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -600,6 +605,43 @@
         <errorDisplayField>AccountNumber</errorDisplayField>
         <errorMessage>Account number should contain 8 digits</errorMessage>
     </validationRules>
+	 <validationRules>
+        <fullName>Account_Number_11rrrrrrrrrrtrue_Characters</fullName>
+        <active>true</active>
+        <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account number should contain 8 digits</errorMessage>
+    </validationRules>
+	 </validationRules>
+	 <validationRules>
+        <fullName>Account_Number_11true_Characters</fullName>
+        <active>true</active>
+        <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account number should contain 8 digits</errorMessage>
+    </validationRules>
+ </validationRules>
+	 <validationRules>
+        <fullName>Account_Number_11rrrrrrrrrrtrue_Characters</fullName>
+        <active>true</active>
+        <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account number should contain 8 digits</errorMessage>
+    </validationRules>
+	 <validationRules>
+        <fullName>Account_Number_9true_Characters</fullName>
+        <active>true</active>
+        <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account number should contain 8 digits</errorMessage>
+    </validationRules>
+     <validationRules>
+        <fullName>Account_Number_10true_Characters</fullName>
+        <active>true</active>
+        <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account number should contain 8 digits</errorMessage>
+    </validationRules>
 	<validationRules>
         <fullName>Account_Number_8_Chacopy</fullName>
         <active>true</active>
@@ -617,6 +659,13 @@
 	<validationRules>
         <fullName>Account_Number_8_Cha8</fullName>
         <active>true</active>
+        <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account number should contain 8 digits</errorMessage>
+    </validationRules>
+	<validationRules>
+        <fullName>Account_Number_8dfnsldfnsdnnsdds8_Cha8</fullName>
+        <active>truefalse</active>
         <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
         <errorDisplayField>AccountNumber</errorDisplayField>
         <errorMessage>Account number should contain 8 digits</errorMessage>
