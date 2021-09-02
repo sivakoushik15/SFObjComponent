@@ -9,6 +9,11 @@
         <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
+	<actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
     <actionOverrides>
         <actionName>CallHighlightAction</actionName>
         <formFactor>Small</formFactor>
