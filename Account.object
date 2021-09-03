@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+	branch 13, which is in inactive mode in the branch and pul request page.
     <actionOverrides>
         <actionName>CallHighlightAction</actionName>
         <type>Default</type>
     </actionOverrides>
+creating a branch on this 13 branchh, afterit is inactive
     <actionOverrides>
         <actionName>CallHighlightAction</actionName>
         <formFactor>Large</formFactor>
