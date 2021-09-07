@@ -146,10 +146,10 @@ public class UserServiceIntTest {
         token.setUserAgent("Test agent");
         persistentTokenRepository.saveAndFlush(token);
     }
-    public class UserServiceIntTest2 {
+    public static void UserServiceIntTest2 {
     }
-    public class UserServiceIntTest3 {
+    public static void UserServiceIntTest3 {
     }
-    public class UserServiceIntTest4 {
+    public static void UserServiceIntTest4 {
     }
 }
