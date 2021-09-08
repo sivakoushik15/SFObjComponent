@@ -33,7 +33,6 @@ public class MySampleApexClass {       //Class definition and body
 
    }
 	public static void demoMethod1(){
-		
 	}
 	public static void demoMethod2(){
 		system.out.println("Method with string variable in side");
