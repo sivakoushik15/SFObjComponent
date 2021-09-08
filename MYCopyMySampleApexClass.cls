@@ -10,11 +10,10 @@ public class MySampleApexClass {       //Class definition and body
 		System.out.println(" K Value = "+k)
 	}
    
-   public static Integer getCalculatedValue () {
+   public static void getCalculatedValue () {
    // Method definition and body
    // do some calculation
-      myValue = myValue+10;
-      return myValue;
+     
    }
 	public static Integer getCalculatedValue () {
    // Method definition and body
