@@ -770,6 +770,14 @@
         <errorDisplayField>AnnualRevenue</errorDisplayField>
         <errorMessage>Revenue is less than -1000000</errorMessage>
     </validationRules>
+ </validationRules>
+	<validationRules>
+        <fullName>Skip_Bafalsenkrupt_Acc6</fullName>
+        <active>false</active>
+        <errorConditionFormula>AnnualRevenue  &lt; -1000000</errorConditionFormula>
+        <errorDisplayField>AnnualRevenue</errorDisplayField>
+        <errorMessage>Revenue is less than -1000000</errorMessage>
+    </validationRules>
 	<validationRules>
         <fullName>Skip_Bankrupt_Acc7</fullName>
         <active>false</active>
