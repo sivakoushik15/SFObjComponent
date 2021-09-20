@@ -6,11 +6,6 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>CallHighlightAction</actionName>
-        <formFactor>Large</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>CallHighlightAction</actionName>
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
@@ -611,16 +606,51 @@
         <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
         <errorDisplayField>AccountNumber</errorDisplayField>
         <errorMessage>Account number should contain 8 digits</errorMessage>
-    </validationRules>
-	 </validationRules>
-	 <validationRules>
+    </validationRules
+<validationRules>
         <fullName>Account_Number_11true_Characters</fullName>
         <active>true</active>
         <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
         <errorDisplayField>AccountNumber</errorDisplayField>
         <errorMessage>Account number should contain 8 digits</errorMessage>
     </validationRules>
- </validationRules>
+	<validationRules>
+        <fullName>Account_Number_11true_Characters</fullName>
+        <active>true</active>
+        <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account number should contain 8 digits</errorMessage>
+    </validationRules>
+	<validationRules>
+        <fullName>Account_Number_11true_Characters</fullName>
+        <active>true</active>
+        <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account number should contain 8 digits</errorMessage>
+    </validationRules>
+	<validationRules>
+        <fullName>Account_Number_11true_Characters</fullName>
+        <active>false</active>
+        <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account number should contain 8 digits</errorMessage>
+    </validationRules>
+	</validationRules>
+	<validationRules>
+        <fullName>Account_Number_11true_Characters</fullName>
+        <active>false</active>
+        <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account number should contain 8 digits</errorMessage>
+    </validationRules>
+</validationRules>
+	<validationRules>
+        <fullName>Account_Number_11true_Characters</fullName>
+        <active>false</active>
+        <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account number should contain 8 digits</errorMessage>
+    </validationRules>
 	 <validationRules>
         <fullName>Account_Number_11rrrrrrrrrrtrue_Characters</fullName>
         <active>true</active>
@@ -663,6 +693,14 @@
         <errorDisplayField>AccountNumber</errorDisplayField>
         <errorMessage>Account number should contain 8 digits</errorMessage>
     </validationRules>
+	<validationRules>
+        <fullName>Account_Number_8dfnsldfnsdnnsdds8_Cha8</fullName>
+        <active>truefalse</active>
+        <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account number should contain 8 digits</errorMessage>
+    </validationRules>
+</validationRules>
 	<validationRules>
         <fullName>Account_Number_8dfnsldfnsdnnsdds8_Cha8</fullName>
         <active>truefalse</active>
@@ -740,8 +778,32 @@
         <errorDisplayField>AnnualRevenue</errorDisplayField>
         <errorMessage>Revenue is less than -1000000</errorMessage>
     </validationRules>
+ </validationRules>
+	<validationRules>
+        <fullName>Skip_Bafalsenkrupt_Acc6</fullName>
+        <active>false</active>
+        <errorConditionFormula>AnnualRevenue  &lt; -1000000</errorConditionFormula>
+        <errorDisplayField>AnnualRevenue</errorDisplayField>
+        <errorMessage>Revenue is less than -1000000</errorMessage>
+    </validationRules>
 	<validationRules>
         <fullName>Skip_Bankrupt_Acc7</fullName>
+        <active>false</active>
+        <errorConditionFormula>AnnualRevenue  &lt; -1000000</errorConditionFormula>
+        <errorDisplayField>AnnualRevenue</errorDisplayField>
+        <errorMessage>Revenue is less than -1000000</errorMessage>
+    </validationRules>
+</validationRules>
+	<validationRules>
+        <fullName>Skip_Bankrupt_Account1</fullName>
+        <active>false</active>
+        <errorConditionFormula>AnnualRevenue  &lt; -1000000</errorConditionFormula>
+        <errorDisplayField>AnnualRevenue</errorDisplayField>
+        <errorMessage>Revenue is less than -1000000</errorMessage>
+    </validationRules>
+</validationRules>
+	<validationRules>
+        <fullName>Skip_Bankrupt_Account2</fullName>
         <active>false</active>
         <errorConditionFormula>AnnualRevenue  &lt; -1000000</errorConditionFormula>
         <errorDisplayField>AnnualRevenue</errorDisplayField>
