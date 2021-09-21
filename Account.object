@@ -615,7 +615,7 @@
         <errorMessage>Account number should contain 8 digits</errorMessage>
     </validationRules>
 	<validationRules>
-        <fullName>Account_Number_11true_Characters</fullName>
+        <fullName>Account_202002Number_11true_Characters</fullName>
         <active>true</active>
         <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
         <errorDisplayField>AccountNumber</errorDisplayField>
@@ -796,6 +796,13 @@
 </validationRules>
 	<validationRules>
         <fullName>Skip_Bankrupt_Account1</fullName>
+        <active>false</active>
+        <errorConditionFormula>AnnualRevenue  &lt; -1000000</errorConditionFormula>
+        <errorDisplayField>AnnualRevenue</errorDisplayField>
+        <errorMessage>Revenue is less than -1000000</errorMessage>
+    </validationRules>
+<validationRules>
+        <fullName>Skip_Bankrufalisept_Account1</fullName>
         <active>false</active>
         <errorConditionFormula>AnnualRevenue  &lt; -1000000</errorConditionFormula>
         <errorDisplayField>AnnualRevenue</errorDisplayField>
