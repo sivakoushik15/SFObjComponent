@@ -13,4 +13,13 @@ public class Class1 {
     public static void dupe3(){
         
     }
+    public static void dupe1(){
+        
+    }
+    public static void dupe2(){
+        
+    }
+    public static void dupe3(){
+        
+    }
 }
