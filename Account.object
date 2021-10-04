@@ -653,6 +653,14 @@
     </validationRules>
 </validationRules>
 	<validationRules>
+        <fullName>Account_Number_1hjlnkbbkhbhbul1true_Characters</fullName>
+        <active>false</active>
+        <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account number should contain 8 digits</errorMessage>
+    </validationRules>
+</validationRules>
+	<validationRules>
         <fullName>Account_Number_11true_Characters</fullName>
         <active>false</active>
         <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
