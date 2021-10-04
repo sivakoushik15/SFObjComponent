@@ -717,6 +717,21 @@
         <errorDisplayField>AccountNumber</errorDisplayField>
         <errorMessage>Account number should contain 8 digits</errorMessage>
     </validationRules>
+    </validationRules>
+	<validationRules>
+        <fullName>Account_Number_8dfnsldfkikiinnnsdnnsdds8_Cha8</fullName>
+        <active>truefalse</active>
+        <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account number should contain 8 digits</errorMessage>
+    </validationRules>    </validationRules>
+	<validationRules>
+        <fullName>Account_Number_8dfllllllnsldfnsdnnsdds8_Cha8</fullName>
+        <active>truefalse</active>
+        <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account number should contain 8 digits</errorMessage>
+    </validationRules>
 </validationRules>
 	<validationRules>
         <fullName>Account_Number_8dfnsldfnsdnnsdds8_Cha8</fullName>
