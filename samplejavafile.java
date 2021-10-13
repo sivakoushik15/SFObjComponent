@@ -22,7 +22,7 @@ public class generateRandom{
 		double rand_dub1 = rand.nextouble();
 		double rand_dub2 = rand.nextDouble();
 
-		// Print random doubles
+		s
 		System.out.println("Random Doubles: "+rand_dub1);
 		System.out.println("Random Doubles: "+rand_dub2);
 	}
