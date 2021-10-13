@@ -44,7 +44,8 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>Edit</actionName>
-        <type>Default</type>
+        <type>Default</t
+		ype>
     </actionOverrides>
     <actionOverrides>
         <actionName>Edit</actionName>
