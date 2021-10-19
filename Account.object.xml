@@ -608,6 +608,13 @@
         <errorDisplayField>AccountNumber</errorDisplayField>
         <errorMessage>Account number should contain 8 digits</errorMessage>
     </validationRules>
+	<validationRules>
+        <fullName>AccountVS_accountNumberNumber_8_VS_Characters</fullName>
+        <active>true</active>
+        <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account number should contain 8 digits</errorMessage>
+    </validationRules>
     <validationRules>
         <fullName>AccountVS_Number_8_VS_Characters</fullName>
         <active>true</active>
