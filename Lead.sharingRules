@@ -78,6 +78,17 @@
         </sharedFrom>
     </sharingOwnerRules>
 	<sharingOwnerRules>
+        <fullName>r7777rule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>r7</label>
+        <sharedTo>
+            <roleAndSubordinates>VPNorthAmericanSales</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>SVPHumanResources</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+	<sharingOwnerRules>
         <fullName>r8</fullName>
         <accessLevel>Edit</accessLevel>
         <label>r8</label>
