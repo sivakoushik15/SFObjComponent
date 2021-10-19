@@ -600,6 +600,13 @@
         <errorDisplayField>ContactNumber</errorDisplayField>
         <errorMessage>Contact number should contain 8 digits</errorMessage>
     </validationRules>
+	  <validationRules>
+        <fullName>newcodepullrequst</fullName>
+        <active>true</active>
+        <errorConditionFormula>LEN(ContactNumber)!= 8</errorConditionFormula>
+        <errorDisplayField>ContactNumber</errorDisplayField>
+        <errorMessage>Contact number should contain 8 digits</errorMessage>
+    </validationRules>
 	<validationRules>
         <fullName>Contact_Number_832_Characters</fullName>
         <active>true</active>
