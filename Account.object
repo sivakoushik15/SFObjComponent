@@ -615,6 +615,13 @@
         <errorMessage>Account number should contain 8 digits</errorMessage>
     </validationRules>
 	<validationRules>
+        <fullName>newBranchcreating</fullName>
+        <active>true</active>
+        <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account number should contain 8 digits</errorMessage>
+    </validationRules>
+	<validationRules>
         <fullName>Account_202002Number_11true_Characters</fullName>
         <active>true</active>
         <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
