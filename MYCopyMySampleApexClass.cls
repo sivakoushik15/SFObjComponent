@@ -5,7 +5,7 @@ public class Class1 {
         System.debug(j=i+i*i+j);
     }
     public static void dupe1(){
-        
+        new pull request checking
     }
     public static void dupe2(){
         
