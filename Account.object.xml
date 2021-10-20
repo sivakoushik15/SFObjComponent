@@ -497,7 +497,7 @@
                 </value>
                 <value>
                     <fullName>Yes</fullName>
-                    <default>false</default>
+                    <default>true</default>checkingForBranchPullRequest
                     <label>Yes</label>
                 </value>
             </valueSetDefinition>
