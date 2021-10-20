@@ -135,6 +135,8 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
+	
+	
     <actionOverrides>
         <actionName>SaveEdit</actionName>
         <type>Default</type>
@@ -615,6 +617,13 @@
         <errorMessage>Account number should contain 8 digits</errorMessage>
     </validationRules>
 	<validationRules>
+        <fullName>newBranchcreating</fullName>
+        <active>true</active>
+        <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account number should contain 8 digits</errorMessage>
+    </validationRules>
+	<validationRules>
         <fullName>Account_202002Number_11true_Characters</fullName>
         <active>true</active>
         <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
@@ -711,6 +720,13 @@
 </validationRules>
 	<validationRules>
         <fullName>Account_Number_8dfnsldfnsdnnsdds8_Cha8</fullName>
+        <active>truefalse</active>
+        <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account number should contain 8 digits</errorMessage>
+    </validationRules></validationRules>
+	<validationRules>
+        <fullName>jvjvjvjvnvjnxfvmzflkmv;ofmvofoknkfkv</fullName>
         <active>truefalse</active>
         <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
         <errorDisplayField>AccountNumber</errorDisplayField>
