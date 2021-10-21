@@ -438,6 +438,9 @@
                     <default>false</default>
                     <label>Platinum</label>
                 </value>
+		    
+		    
+		    
                 <value>
                     <fullName>Bronze</fullName>
                     <default>false</default>
@@ -678,6 +681,7 @@
         <errorDisplayField>AnnualRevenue</errorDisplayField>
         <errorMessage>Revenue is less than -1000000</errorMessage>
     </validationRules>
+	671
     <webLinks>
         <fullName>Billing</fullName>
         <availability>online</availability>

@@ -231,6 +231,11 @@
             <operation>lessThan</operation>
             <value>750000</value>
         </criteriaItems>
+		 <criteriaItems>
+            <field>Contact.IsClosed</field>
+            <operation>notEqual</operation>
+            <value>FalseTrue</value>
+        </criteriaItems>
         <criteriaItems>
             <field>Contact.IsClosed</field>
             <operation>notEqual</operation>
