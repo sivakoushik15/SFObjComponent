@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-check pr for the organization PR's
-
-new change cummiting from termina from local
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
         <actionName>CallHighlightAction</actionName>
@@ -575,7 +572,7 @@ new change cummiting from termina from local
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>
-        <fullName>AR_Ext_id_is_Seven</fullName>
+        <fullName>575_AR_Ext_id_is_Seven_12444</fullName>
         <active>true</active>
         <errorConditionFormula>AutorabitExtId__c  = &quot;Seven&quot;</errorConditionFormula>
         <errorDisplayField>AutorabitExtId__c</errorDisplayField>
